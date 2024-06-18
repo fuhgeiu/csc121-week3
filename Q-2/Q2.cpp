@@ -15,14 +15,12 @@ int main() {
     cout << "enter 5 score\n\n";
 
     for (int i = 0; i <= 4; i++) {
-
         cin >> my_array[i];
 //        calculate total
     }
 
     for (int i = 0; i < 5; i++)
         T =+ my_array[i];
-
 
 //  calculate average
 //  display both
