@@ -15,19 +15,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Q-1" />
+      </map>
+    </option>
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="911e1532-3b81-4133-8a9c-e6910f54a90a" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ File.Q1.cpp.executor": "Run",
-    "C/C++ File.Q2.cpp (1).executor": "Run",
-    "C/C++ File.Q2.cpp.executor": "Run",
-    "git-widget-placeholder": "Q-2",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ File.Q1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q2.cpp (1).executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.Q2.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Q-2&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="C/C++ File.Q2.cpp (1)">
+}</component>
+  <component name="RunManager">
     <configuration name="Q1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="csc121-week3" TARGET_NAME="Q1.cpp" CONFIG_NAME="Q1.cpp">
       <option name="sourceFile" value="Q-1/Q1.cpp" />
       <method v="2">
@@ -40,8 +47,8 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="csc121-week3" TARGET_NAME="Q2.cpp" CONFIG_NAME="Q2.cpp">
-      <option name="sourceFile" value="Q2/Q2.cpp" />
+    <configuration name="Q2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="csc121-week3" TARGET_NAME="Q2.cpp" CONFIG_NAME="Q2.cpp (1)">
+      <option name="sourceFile" value="Q-2/Q2.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -54,9 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.Q2.cpp (1)" />
         <item itemvalue="C/C++ File.Q2.cpp" />
-        <item itemvalue="C/C++ File.Q1.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718730780034</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1718742162797</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718742162797</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

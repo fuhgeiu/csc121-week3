@@ -17,10 +17,8 @@ int main() {
     for (int i = 0; i <= 4; i++) {
         cin >> my_array[i];
 //        calculate total
+        T = T + my_array[i];
     }
-
-    for (int i = 0; i < 5; i++)
-        T =+ my_array[i];
 
 //  calculate average
 //  display both
