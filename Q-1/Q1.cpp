@@ -9,20 +9,31 @@ using namespace std;
 
 int main() {
 
-    int a,b,r,s;
+    int r,s;
+    bool c = 1;
 
-    cout << "enter starting number:  "; cin >> s;
-    cout << "enter range:  "; cin >> r;
+    while (c) {
 
-    if (s < r) {b = r; a = s;}
-    else (a = r); (b = s);
+        cout << "enter starting number:  ";
+        cin >> s;
+        cout << "enter range:  ";
+        cin >> r;
 
-    for ( int i = a; i <= b; i++) {
+        if (s < r) {
 
-        if (i == 4 || i == 13) {}
-        else cout << i << endl;
+            for (int i = s; i <= r; i++)
+                if (i == 4 || i == 13) {}
+                else cout << i << endl;
+        }
+
+        if (r < s) {
+
+            for (int i = r; i <= s; i++)
+                if (i == 4 || i == 23) {}
+                else cout << i << endl;
+        }
+
     }
-
 
     return 0;
 }
