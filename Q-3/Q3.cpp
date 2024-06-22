@@ -5,26 +5,10 @@ alex carnes 6/6
 
 #include <iostream>
 #include <unistd.h>
+#include <window.h>
 
 using namespace std;
 
-void dis_S (bool w,int s) {
-
-    int delay;
-
-    while (w) {
-        for (int i = 0; i < 60; i++) {
-
-            if (i <= 10) { delay = 900000; }
-            else delay = 100000;
-
-            usleep(delay);
-            cout << "       :" << i << endl;
-        }
-        s = 1;
-    }
-
-}
 
 void dis_M (bool w,int s) {
 
@@ -69,7 +53,28 @@ int main () {
 
     bool w = 1;
 
-    dis (w);
+    int delay;
+
+    while (w) {
+        for (int i = 0; i < 60; i++) {
+
+            if (i <= 10) { delay = 900000; }
+            else delay = 100000;
+
+            usleep(delay);
+            cout << "       :" << i << endl;
+        }
+        s = 1;
+    }
+
+
+
+
+
+
+
+
+
 
 
 //  loop for seconds
