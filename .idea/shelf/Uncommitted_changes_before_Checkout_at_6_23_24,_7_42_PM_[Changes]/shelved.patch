@@ -1,0 +1,35 @@
+Index: Q-4/Q4.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*\nprogram that does cmath and trig fucntions\nalex carnes 6/6\n*/\n\n#include <iostream>\n\nusing namespace std;\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Q-4/Q4.cpp b/Q-4/Q4.cpp
+--- a/Q-4/Q4.cpp	(revision 01e9d0d6512aeb6f5e2d6c1f012e0541da4c0a7a)
++++ b/Q-4/Q4.cpp	(date 1719074957565)
+@@ -7,3 +7,23 @@
+ 
+ using namespace std;
+ 
++
++
++
++
++int main () {
++
++
++
++
++
++
++
++
++
++
++
++
++
++    return 0;
++}
+\ No newline at end of file
