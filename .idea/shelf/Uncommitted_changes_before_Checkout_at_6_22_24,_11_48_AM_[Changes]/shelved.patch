@@ -1,0 +1,78 @@
+Index: Q-3/Q3.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*\nprogram that does cmath and trig fucntions\nalex carnes 6/6\n*/\n\n#include <iostream>\n#include <unistd.h>\n\nusing namespace std;\n\nvoid dis_S (bool w,int s) {\n\n    int delay;\n\n    while (w) {\n        for (int i = 0; i < 60; i++) {\n\n            if (i <= 10) { delay = 900000; }\n            else delay = 100000;\n\n            usleep(delay);\n            cout << \"       :\" << i << endl;\n        }\n        s = 1;\n    }\n\n}\n\nvoid dis_M (bool w,int s) {\n\n    int delay;\n\n    while (w) {\n        for (int i = 0; i < 60; i++) {\n\n            if (i <= 10) { delay = 900000; }\n            else delay = 100000;\n\n            usleep(delay);\n            cout << \"    :\" << i << endl;\n        }\n    }\n}\n\n\nvoid dis (bool w) {\n\n    int s = 0;\n\n    dis_S(w,s);\n\n    if (s = 1) {\n\n    dis_M(w,s); }\n\n\n}\n\n\n\n\n\n\n\n\n\n\nint main () {\n\n    bool w = 1;\n\n    dis (w);\n\n\n//  loop for seconds\n\n//      seconds displayed in small delay\n//      seconds displayed in small delay but with less precision when clock is turnign minutes\n//      seconds displayed in small delay but with even less pecision when clock is turning hours\n\n\n//  loop for minutes\n\n//      minutes displayed in small delay\n//      minutes displayed in small delay but with less precision clock us turning hours\n//      minutes displayed in small delay but with even less precision clock is turning hours\n\n\n//  loop for hours\n\n//      hours displayed in small delay,\n//      stop when hitting 24 hours\n\n\n//  to funtionize\n\n//\n\n\n    return 0;\n}
+===================================================================
+diff --git a/Q-3/Q3.cpp b/Q-3/Q3.cpp
+--- a/Q-3/Q3.cpp	
++++ b/Q-3/Q3.cpp	
+@@ -8,9 +8,13 @@
+ 
+ using namespace std;
+ 
+-void dis_S (bool w,int s) {
++
++int main () {
++
++    bool w = 1,c =1;
+ 
+     int delay;
++    int s;
+ 
+     while (w) {
+         for (int i = 0; i < 60; i++) {
+@@ -21,40 +25,17 @@
+             usleep(delay);
+             cout << "       :" << i << endl;
+         }
++
+         s = 1;
+-    }
+ 
+-}
+ 
+-void dis_M (bool w,int s) {
+ 
+-    int delay;
+ 
+-    while (w) {
+-        for (int i = 0; i < 60; i++) {
+ 
+-            if (i <= 10) { delay = 900000; }
+-            else delay = 100000;
+ 
+-            usleep(delay);
+-            cout << "    :" << i << endl;
+-        }
+-    }
+-}
+-
+-
+-void dis (bool w) {
+-
+-    int s = 0;
+-
+-    dis_S(w,s);
+-
+-    if (s = 1) {
+-
+-    dis_M(w,s); }
+ 
+ 
+-}
++    }
+ 
+ 
+ 
+@@ -65,11 +46,6 @@
+ 
+ 
+ 
+-int main () {
+-
+-    bool w = 1;
+-
+-    dis (w);
+ 
+ 
+ //  loop for seconds
