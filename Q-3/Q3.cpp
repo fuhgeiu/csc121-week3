@@ -15,123 +15,61 @@ void dis_S (bool w,int s) {
     while (w) {
         for (int i = 0; i < 60; i++) {
 
-            if (i <= 10) { delay = 1000000; }
+            if (i <= 10) { delay = 900000; }
             else delay = 100000;
 
             usleep(delay);
-
-
-
-
-            cout << i << ":" << J << ":" << k;
-
-            if (i > 60; i < 60; i++;) {k = 1}
-
-
-
-
-            while (k)
-
-
-
-
-
+            cout << "       :" << i << endl;
         }
-
-
-
-        for (int s; s < 60; s++) {
-
-            if (s <= 10) { delay = 1000000; }
-            else delay = 100000;
-
-            usleep(delay);
-            cout << "    :" << s << endl;
-
-        }
-
-
-
-
-
+        s = 1;
     }
-}
-
-
-void I() {
-
-
-
-
-
 
 }
 
-void J() {
+void dis_M (bool w,int s) {
 
+    int delay;
 
-
-
-
-
-}
-
-void K(int &C) {
-
-    for
-
-
-
-
-}
-
-
-
-
-
-
-
-// 1e-6 seconds = 1 microsecond
-// 1e-5 seconds = 10 microseconds
-
-
-void dis (bool w,int i, int j, int k) {
-
-    int C = 0;
     while (w) {
+        for (int i = 0; i < 60; i++) {
 
-//      to get i
-    I();
-//      to get j
-    J();
-//      to get k
-    K(C);
+            if (i <= 10) { delay = 900000; }
+            else delay = 100000;
 
-
-        cout << i << ":" << J << ":" << k;
-
+            usleep(delay);
+            cout << "    :" << i << endl;
+        }
     }
+}
+
+
+void dis (bool w) {
+
+    int s = 0;
+
+    dis_S(w,s);
+
+    if (s = 1) {
+
+    dis_M(w,s); }
+
 
 }
 
 
-//void universal_C(int &k){
-//
-//    for (int i = 0; i < 15; i++) {
-//
-//        k=+i;}
-//
-//}
+
+
+
+
+
+
 
 
 int main () {
 
     bool w = 1;
-    int i,j,k;
 
-//    universal_C(k);
-
-    dis (w,i,j,k);
+    dis (w);
 
 
 //  loop for seconds
