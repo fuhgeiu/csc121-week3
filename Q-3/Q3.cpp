@@ -23,7 +23,6 @@ void dis_S (bool w,int s) {
         }
         s = 1;
     }
-
 }
 
 void dis_M (bool w,int s) {
@@ -72,24 +71,6 @@ int main () {
     dis (w);
 
 
-//  loop for seconds
-
-//      seconds displayed in small delay
-//      seconds displayed in small delay but with less precision when clock is turnign minutes
-//      seconds displayed in small delay but with even less pecision when clock is turning hours
-
-
-//  loop for minutes
-
-//      minutes displayed in small delay
-//      minutes displayed in small delay but with less precision clock us turning hours
-//      minutes displayed in small delay but with even less precision clock is turning hours
-
-
-//  loop for hours
-
-//      hours displayed in small delay,
-//      stop when hitting 24 hours
 
 
 //  to funtionize
